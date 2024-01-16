@@ -17,7 +17,7 @@ public class ContinentController {
     @PostMapping
     public ResponseEntity<?> create() {
 
-        return ResponseEntity.status(HttpStatus.CREATED).body("v1.0.1 " + LocalDateTime.now().toString());
+        return ResponseEntity.status(HttpStatus.CREATED).body("v1.0.1 " + LocalDateTime.now());
     }
 
 }
