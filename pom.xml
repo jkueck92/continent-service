@@ -49,7 +49,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
-                    <scmCommentPrefix>[ci skip]</scmCommentPrefix>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
@@ -71,4 +70,10 @@
         <developerConnection>scm:git:https://github.com/jkueck92/continent-service.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/jkueck/continent-service</url>
+        </repository>
+    </distributionManagement>
 </project>
