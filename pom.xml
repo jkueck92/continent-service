@@ -9,7 +9,7 @@
     </parent>
     <groupId>de.jkueck</groupId>
     <artifactId>continent-service</artifactId>
-    <version>0.0.31</version>
+    <version>0.0.32-SNAPSHOT</version>
     <name>continent-service</name>
     <description>continent-service</description>
     <properties>
@@ -68,7 +68,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/jkueck92/continent-service.git</developerConnection>
-        <tag>v0.0.31</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
